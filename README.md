@@ -2,7 +2,7 @@
 
 ## Assignment 1: 
 Q1 and Q2 uploaded. Change values as needed in code. Import files by downloading zip from top-right corner (last option under the GREEN code button), and open using VSCode or jupyter notebook. 
-Q3 will be done by tuesday (fingers crossed)
+Q3 is now added. Additional features tbd as discussed in next meet.
 
 <br>
 ## P.S. 
