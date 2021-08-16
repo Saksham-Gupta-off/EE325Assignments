@@ -24,7 +24,7 @@ for i in range(0,50):
 
     opt3 = np.random.choice(data,k,replace=False)
     avg3 = np.append(avg3, np.mean(opt3))
-    std1 = np.append(std3, np.std(opt3))
+    std3 = np.append(std3, np.std(opt3))
 
 print("Assuming Case 3 is best:-\n" + "average: " + str(np.mean(avg3)) + "\nstddev: " + str(np.mean(std3)))
 
