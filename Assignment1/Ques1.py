@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-k = 10
+k = 10000
 # change value of k here
 
 data = np.loadtxt("hw1a.txt")
@@ -17,14 +17,14 @@ for i in range(0,50):
     avg1 = np.append(avg1, np.mean(opt1))
     std1 = np.append(std1, np.std(opt1))
 
-    rand = int(np.random.random() * 10000)
+    rand = int(np.random.random() * (10000-k))
     opt2 = data[rand:(rand+k)]
     avg2 = np.append(avg2, np.mean(opt2))
     std2 = np.append(std2, np.std(opt2))
 
     opt3 = np.random.choice(data,k,replace=False)
     avg3 = np.append(avg3, np.mean(opt3))
-    std1 = np.append(std3, np.std(opt3))
+    std3 = np.append(std3, np.std(opt3))
 
 print("Assuming Case 3 is best:-\n" + "average: " + str(np.mean(avg3)) + "\nstddev: " + str(np.mean(std3)))
 
