@@ -5,7 +5,7 @@ Q1 and Q2 uploaded. Change values as needed in code. Import files by downloading
 Q3 will be done by tuesday (fingers crossed)
 
 <br>
-### P.S. 
+## P.S. 
 As upcoming assignments are also expected to have coding, it is recommended install the required environments for using python. Google colab doesn't work with external txt and py files without serious modifications, so the popular choices are either VSCode or Jupyter notebook. Both softwares are free, and the links for both are given below:
 
 a. VSCode + python interpreter : https://code.visualstudio.com/docs/python/python-tutorial<br>
