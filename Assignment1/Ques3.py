@@ -40,7 +40,6 @@ def plot_regression_line(x, y, b):
 # observations / data
 data = np.loadtxt("hw1c1.txt")
 x, y = np.hsplit(data,2)
-
 # estimating coefficients
 b = estimate_coef(x, y)
 print("Estimated coefficients:\nb_0 = {} \nb_1 = {}".format(b[0], b[1]))

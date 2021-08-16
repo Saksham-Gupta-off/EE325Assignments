@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-k = 10000
+k = 200
 # change value of k here
 
 data = np.loadtxt("hw1a.txt")
@@ -11,6 +11,7 @@ avg2 = np.array([])
 std2 = np.array([])
 avg3 = np.array([])
 std3 = np.array([])
+
 for i in range(0,50):
 
     opt1 = data[0:k]

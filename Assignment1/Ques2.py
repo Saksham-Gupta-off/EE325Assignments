@@ -12,7 +12,7 @@ def find_prob(fname):
             prob = np.append(prob, val)
         else:
             prob = np.append(prob, (prob[i-1]*i + val)/(i+1))
-    for i in range(n-1, len(prob)):
+    for i in range(n, len(prob)):
         if (prob[i] < pH-sr):
             print("SURE: " + str(i+1) + " with probability " + str(prob[i]))
         elif (prob[i] < pH-dt):
@@ -25,10 +25,10 @@ pH = 0.5
 # initial gap of n elements
 n = 10
 
-#buffer for doubt
+# buffer for doubt
 dt = 0.1
 
-#buffer for sure
+# buffer for sure
 sr = 0.25
 
 print(find_prob("hw1b1.txt"))
